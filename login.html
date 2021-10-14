@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bli medlem</title>
+</head>
+
+<body>
+    <header class="top-navbar-login">
+        <div class="main-header-container">
+            <h1><span>G</span>itarr<span>s</span>pecialisten </h1>
+        </div>
+        <nav>
+            <ul class="header-menu-container">
+                <li><a href="blog.html">Blogg</a></li>
+                <div id="space-between"></div>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-login-conatainer">
+        <form action="#" method="POST">
+            <h2>Bli medlem</h2>
+            <fieldset>
+                <legend>Fyll i informationen och godkänn villkor för att bli medlem</legend>
+                <p>
+                    <label for="name">Namn</label><br>
+                    <input type="text" name="name" id="name" Placeholder="John">
+                </p>
+                <p>
+                    <label for="email">E-post</label><br>
+                    <input type="email" name="email" id="email" placeholder="Exempel@gmail.com">
+                </p>
+                <p>
+                    <label for="password">Lösenord</label><br>
+                    <input type="password" name="password" id="password" placeholder="********">
+                </p>
+                <p>
+                    <label for="birthdate">Födelsedatum</label><br>
+                    <input type="date" name="birthdate" id="birthdate">
+                </p>
+                <p>
+                    <label for="guitar">Välj din favoritgitarr</label><br>
+                    <select name="guitar" id="guitar">
+                        <option value="epiphone">Epiphone</option>
+                        <option value="fender">Fender</option>
+                        <option value="gibson">Gibson</option>
+                        <option value="guild">Guild</option>
+                        <option value="seagull">Seagull</option>
+                        <option value="washburn">Washburn</option>
+                        <option value="Yamaha">Yamaha</option>
+                    </select>
+                </p>
+            </fieldset>
+            <!-- <div class="form-checkbox">
+                <input type="checkbox" name="check1" id="check1">
+                <label for="check1">Jag accepterar alla villkor</label><br> -->
+
+                <input type="checkbox" name="check2" id="check2">
+                <label for="check2">Jag vill ha nyhetsbrev</label><br><br>
+                <div class="login-btn">
+                    <input type="submit" value="Bli medlem">
+                    <input type="reset" value="Återställ">
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div id="footer-icons">
+            <img src="https://img.icons8.com/color/480/000000/facebook-new.png" />
+            <img src="https://img.icons8.com/fluency/240/000000/instagram-new.png" />
+            <img src="https://img.icons8.com/fluency/240/000000/twitter.png" />
+            <img src="https://img.icons8.com/color/480/000000/youtube-play.png" />
+        </div>
+        <nav>
+            <ul id="footer-nav">
+                <li><a href="">Säkerhetspolicy</a></li>
+                <li><a href="">Cookie inställningar</a></li>
+                <li><a href="">Kontakta oss</a></li>
+            </ul>
+        </nav>
+        <div class="copyright-txt">
+            <p>
+                Copyright &copy; John Sommer Österlin <br>
+                Västerås, Sverige <br>
+                2021 Glimåkra folkhögskola, Webbutveckling
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
