@@ -323,3 +323,9 @@ fieldset input {
 fieldset label {
     font-weight: bold;
 }
+
+fieldset select {
+    border-radius: 10px;
+    padding: 2% 3% 2% 3%;
+    margin: 2% 0 4% 0;
+}
