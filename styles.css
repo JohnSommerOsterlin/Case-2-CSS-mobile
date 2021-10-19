@@ -33,9 +33,6 @@
     width: 100%;
     height: 50px;
 }
-#space-between {
-    width: 15%;
-}
 
 .header-menu-container li {
     display: inline;
@@ -52,10 +49,12 @@
 }
 
 .hero-section-container {
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 720px;
+    height: 100vh;
     background-image: url(images/background-img.jpg);
-    background-size: 300%;
+    background-size: cover;
     background-position: center; 
     background-blend-mode: soft-light;
     background-color: rgba(0, 0, 0, 0.5);
@@ -70,19 +69,18 @@
     flex: 1;
 }
 .second {
+    height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     flex: 10;
 }
 .hero-content-container {
-    padding-top: 30%;
-    width: 70%;
-    height: 60%;
-    /* background-color: deeppink;  */
-    color: white;
+    /* color: rgb(216, 216, 216); */
     text-align: center;
 }
 .hero-content-container h2 {
+    font-weight: bold;
     font-size: 27px;
     text-transform: uppercase;
     color: rgb(216, 216, 216);
@@ -92,7 +90,7 @@
     display: inline-block;
     font-weight: bold;
     background-color: red;
-    color: white;
+    color: rgb(216, 216, 216);
     border: none;
     margin-top: 15%;
     padding: 10px 15px 10px 15px;
@@ -239,7 +237,7 @@ footer a {
 }
 
 .top-navbar-about h1 {
-    color: white;
+    color: rgb(216, 216, 216);
     font-size: 27px;
 }
 
@@ -360,6 +358,10 @@ fieldset input {
     border-radius: 10px;
     padding: 3% 5% 3% 5%;
     border: none;
+}
+
+#birthdate {
+    width: 195px;
 }
 
 fieldset label {
